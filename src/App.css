@@ -1,0 +1,47 @@
+body {
+  background-color: #282c34;
+  color: white;
+}
+
+.container {
+  font-size: xx-small;
+  max-height: 200px;
+  overflow: auto;
+  background-color: #353941;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+
+}
+
+.row > div {
+  flex: 1;
+  text-align: left;
+}
+
+.App {
+  display: flex;
+}
+
+.left {
+  flex: 1;
+}
+
+.right {
+  flex: 2;
+  position: relative;
+  height: 100vh;
+}
+
+.mapContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
